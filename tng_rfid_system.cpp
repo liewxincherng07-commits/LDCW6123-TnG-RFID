@@ -52,7 +52,7 @@ int main() {
     cout << "Enter choice (1-3): ";
     cin >> exitPlaza;
 
-    if (entryPlaza == exitPlaza) {
+    if (entryPlaza == exitPlaza) { //execute if condition  is true
         cout << "\nError: Entry and Exit plazas cannot be the same for RFID passage.\n";
         return 1;
     }
