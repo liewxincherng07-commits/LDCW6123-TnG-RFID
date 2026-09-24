@@ -60,7 +60,7 @@ int main() {
     // Step 4: Logic to calculate fare using switch/if statements
     if ((entryPlaza == 1 && exitPlaza == 2) || (entryPlaza == 2 && exitPlaza == 1)) {
         fare = 2.40; // Sg Besi <-> Kajang
-    } else if ((entryPlaza == 2 && exitPlaza == 3) || (entryPlaza == 3 && exitPlaza == 2)) {
+    } else if ((entryPlaza == 2 && exitPlaza == 3) || (entryPlaza == 3 && exitPlaza == 2)) { //execute if condition is false
         fare = 4.10; // Kajang <-> Seremban
     } else if ((entryPlaza == 1 && exitPlaza == 3) || (entryPlaza == 3 && exitPlaza == 1)) {
         fare = 6.50; // Sg Besi <-> Seremban
