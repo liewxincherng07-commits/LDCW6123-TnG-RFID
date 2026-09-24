@@ -21,7 +21,7 @@ int main() {
     displayHeader();
 
     // Step 1: Input eWallet Balance
-    cout << "Enter current TnG eWallet Balance (RM): ";
+    cout << "Enter current TnG eWallet Balance (RM): "; //printing screen for the cover
     cin >> currentBalance;
 
     if (currentBalance < 0) {
