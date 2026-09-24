@@ -6,7 +6,7 @@
 using namespace std;
 
 // Function to display header
-void displayHeader() {
+void displayHeader() { //function variable define
     cout << "====================================================\n";
     cout << "       TOUCH 'N GO RFID TOLL ASSISTANT SYSTEM       \n";
     cout << "====================================================\n";
