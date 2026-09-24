@@ -86,7 +86,7 @@ int main() {
 
     // Step 5: Check eWallet sufficiency and auto-reload logic
     if (currentBalance >= fare) {
-        double newBalance = currentBalance - fare;
+        double newBalance = currentBalance - fare; //point the eWallet sufficiency or not
         cout << "\nRFID Scan Status     : SUCCESS (Boom Gate Opening)\n";
         cout << "Deducted Amount      : RM " << fare << endl;
         cout << "Remaining Balance    : RM " << newBalance << endl;
