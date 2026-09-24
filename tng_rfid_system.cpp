@@ -78,7 +78,7 @@ int main() {
 
     // Display Summary
     cout << fixed << setprecision(2);
-    cout << "\n----------------------------------------------------\n";
+    cout << "\n----------------------------------------------------\n"; // printing display for the summary
     cout << "                  TRIP SUMMARY                      \n";
     cout << "----------------------------------------------------\n";
     cout << "Toll Fare Calculated : RM " << fare << endl;
